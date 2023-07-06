@@ -9,6 +9,7 @@ const App = () => (
   <div className="App">
     <Header/>
     <div className="banner">
+      <div className="bannerOverlay"/>
       <div className="bannerContainer">
         <div className="infoBlock">
           <h1 data-text="space" className="title">Discover the vast expanses of space</h1>
