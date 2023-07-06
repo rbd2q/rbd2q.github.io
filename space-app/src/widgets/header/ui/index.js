@@ -1,3 +1,4 @@
+import {BurgerMenu} from "../../../features/burger-menu/ui";
 import {CartIcon} from "../../../shared/icons/CartIcon";
 import styles from './header.module.scss';
 
@@ -9,6 +10,9 @@ export const Header = () => (
         <span className={styles.navigationItem}>Home</span>
         <span className={styles.navigationItem}>Products</span>
         <CartIcon/>
+      </div>
+      <div className={styles.burgerMenu}>
+        <BurgerMenu/>
       </div>
     </div>
   </div>
