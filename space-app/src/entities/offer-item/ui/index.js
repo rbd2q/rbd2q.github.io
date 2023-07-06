@@ -19,13 +19,17 @@ export const OfferItem = ({title, description, imageUrl}) => {
     };
   }, [imageUrl]);
 
+  const handleLearnMore = () => {
+    //
+  }
+
   return (
     <div className={styles.offerItem} style={backgroundStyle}>
       <div className={styles.offerItemOverlay}/>
       <div className={styles.offerItemInfo}>
         <h3 className={styles.itemTitle}>{title}</h3>
         <p className={styles.itemDescription}>{description}</p>
-        <Button text="Learn more" variant="secondary"/>
+        <Button text="Learn more" variant="secondary" onClick={handleLearnMore}/>
       </div>
     </div>
   )
