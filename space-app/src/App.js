@@ -28,15 +28,26 @@ const App = () => (
       <div className="offersContainer">
         <span className="offersTitle">Offers</span>
         <div className="offersList">
-          <OfferItem title="Move the borders of reality!" description="Go on a space adventure - it's possible with us!"
-                     imageUrl="images/space-1.webp"/>
-          <OfferItem title="Space is not just stars and planets"
-                     description="Go on a space adventure"
-                     imageUrl="images/space-2.webp"/>
-          <OfferItem title="For those who dream of stars" description="Our offer: make your dream come true"
-                     imageUrl="images/space-3.webp"/>
-          <OfferItem title="Fulfill your fantastic dreams"
-                     description="Space has never been so close" imageUrl="/images/space-4.webp"/>
+          <OfferItem
+            title="Move the borders of reality!"
+            description="Go on a space adventure - it's possible with us!"
+            imageUrl="images/space-1.webp"
+          />
+          <OfferItem
+            title="Space is not just stars and planets"
+            description="Go on a space adventure"
+            imageUrl="images/space-2.webp"
+          />
+          <OfferItem
+            title="For those who dream of stars"
+            description="Our offer: make your dream come true"
+            imageUrl="images/space-3.webp"
+          />
+          <OfferItem
+            title="Fulfill your fantastic dreams"
+            description="Space has never been so close"
+            imageUrl="/images/space-4.webp"
+          />
         </div>
         <div className="contentBlock">
           <h4 className="contentTitle">Embark on a space journey</h4>

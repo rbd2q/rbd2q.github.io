@@ -6,11 +6,15 @@ import styles from './offer-item.module.css'
 export const OfferItem = ({title, description, imageUrl}) => {
   const backgroundStyle = useMemo(() => {
     if (imageUrl) {
-      return {backgroundImage: `url(${imageUrl})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'};
+      return {
+        backgroundImage: `url(${imageUrl})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+      };
     }
 
     return {
-      backgroundImage: `url(images/space-1.png)`,
+      backgroundImage: `url(images/space-1.webp)`,
     };
   }, [imageUrl]);
 
