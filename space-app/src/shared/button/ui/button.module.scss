@@ -2,8 +2,8 @@
   cursor: pointer;
   border-radius: 100px;
   width: fit-content;
-  padding: 14px 40px;
-  font-size: 22px;
+  padding: 7px 40px;
+  font-size: 16px;
   font-weight: 700;
 
   &:hover {
@@ -20,4 +20,18 @@
   color: #EBFF00;
   border: 2px solid #EBFF00;
   background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .Button[data-variant="primary"] {
+    padding: 14px 40px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .Button[data-variant="secondary"] {
+    padding: 14px 40px;
+    font-size: 22px;
+  }
 }

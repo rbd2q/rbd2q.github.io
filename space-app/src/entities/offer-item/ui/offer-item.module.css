@@ -3,7 +3,7 @@
   color: #FFFFFF;
   position: relative;
   height: 350px;
-  padding: 36px;
+  padding: 40px 26px;
   border-radius: 10px;
   overflow: hidden;
   box-sizing: border-box;
@@ -13,12 +13,12 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   z-index: 1;
 }
 
 .itemTitle {
-  max-width: 65%;
+  max-width: 85%;
 }
 
 .itemDescription {
@@ -33,4 +33,16 @@
   right: 0;
   left: 0;
   z-index: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .offerItem {
+    padding: 28px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .offerItem {
+    padding: 36px;
+  }
 }
