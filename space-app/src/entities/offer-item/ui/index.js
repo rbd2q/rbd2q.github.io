@@ -9,7 +9,8 @@ export const OfferItem = ({title, description, imageUrl}) => {
       return {
         backgroundImage: `url(${imageUrl})`,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
       };
     }
 
