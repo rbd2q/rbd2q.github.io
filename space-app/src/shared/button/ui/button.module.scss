@@ -1,0 +1,23 @@
+.Button {
+  cursor: pointer;
+  border-radius: 100px;
+  width: fit-content;
+  padding: 14px 40px;
+  font-size: 22px;
+  font-weight: 700;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.Button[data-variant="primary"] {
+  background: #EBFF00;
+  color: #000;
+}
+
+.Button[data-variant="secondary"] {
+  color: #EBFF00;
+  border: 2px solid #EBFF00;
+  background: transparent;
+}

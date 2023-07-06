@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #000000;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.headerContainer {
+  height: 80px;
+  padding-inline: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 104px;
+  height: 35px;
+}
+
+.navigationItems {
+  display: flex;
+  gap: 25px;
+}
+
+.navigationItems > * {
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(90deg, #EBFF00, #FF70D9, #EBFF00) 0 0 / 400% 100%;
+    animation: move-bg 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
+}

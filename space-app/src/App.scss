@@ -1,0 +1,157 @@
+.banner {
+  width: 100%;
+  background: url("../public/images/background-image.png") no-repeat;
+  background-size: cover;
+}
+
+.bannerContainer {
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 64px;
+  padding-inline: 80px;
+  display: flex;
+  align-items: center;
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.infoBlock {
+  margin-top: 90px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.title:after {
+  content: attr(data-text);
+  color: #FF70D9;
+  transform: translateX(-100%);
+  position: absolute;
+}
+
+.subtitle {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.subtitle:after {
+  content: attr(data-text);
+  color: #EBFF00;
+  transform: translateX(-100%);
+  position: absolute;
+}
+
+.earthBlock {
+  width: 30%;
+  height: 100%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.earthImage {
+
+}
+
+.offersWrapper {
+  color: #FFFFFF;
+  width: 100%;
+  height: fit-content;
+  padding-top: 58px;
+  padding-bottom: 60px;
+  background: linear-gradient(196.2deg, #0D1E48 0%, #304571 100%);
+}
+
+.offersContainer {
+  max-width: 1088px;
+  margin: 0 auto;
+  padding-inline: 80px;
+}
+
+.offersTitle {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.offersList {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.offersList > div {
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+
+  h3 {
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.offersList > div:first-child {
+  width: 100%;
+
+  h3 {
+    font-size: 74px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+}
+
+.offersList > div:last-child {
+  width: 100%;
+
+  h3 {
+    font-size: 74px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+}
+
+.contentTitle {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.contentText {
+  font-size: 20px;
+  line-height: normal;
+  opacity: .6;
+  margin: 17px 0;
+}
+
+.contentLink {
+  color: #EBFF00;
+  font-size: 20px;
+  font-weight: 800;
+
+  &:hover {
+    opacity: .6;
+  }
+}
