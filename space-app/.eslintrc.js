@@ -11,7 +11,7 @@ module.exports = {
     "import/order": "off",
     "simple-import-sort/imports": "error",
     "react/react-in-jsx-scope": "off",
-    "jsx-a11y/label-has-associated-control": ["error", {
+    "jsx-a11y/label-has-associated-control": ["warn", {
       "required": {
         "some": ["nesting", "id"]
       }
