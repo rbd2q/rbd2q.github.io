@@ -1,5 +1,5 @@
-import {BurgerMenu} from "../../../features/burger-menu/ui";
-import {CartIcon} from "../../../shared/icons/CartIcon";
+import { BurgerMenu } from "../../../features/burger-menu/ui";
+import { CartIcon } from "../../../shared/icons/CartIcon";
 import styles from './header.module.scss';
 
 export const Header = () => (

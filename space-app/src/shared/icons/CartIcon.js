@@ -1,4 +1,4 @@
-export const CartIcon = ({width = 25, height = 21}) => (
+export const CartIcon = ({ width = 25, height = 21 }) => (
   <svg width={width} height={height} viewBox="0 0 25 21" fill="none"
        xmlns="http://www.w3.org/2000/svg">
     <path fillRule="evenodd" clipRule="evenodd"

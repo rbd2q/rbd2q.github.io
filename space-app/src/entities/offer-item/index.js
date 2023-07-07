@@ -1,3 +1,3 @@
-import {OfferItem} from './ui';
+import { OfferItem } from './ui';
 
 export default OfferItem;

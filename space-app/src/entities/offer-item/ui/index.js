@@ -1,9 +1,9 @@
-import {useMemo} from "react";
+import { useMemo } from "react";
 
-import {Button} from "../../../shared/button/ui";
+import { Button } from "../../../shared/button/ui";
 import styles from './offer-item.module.css'
 
-export const OfferItem = ({title, description, imageUrl}) => {
+export const OfferItem = ({ title, description, imageUrl }) => {
   const backgroundStyle = useMemo(() => {
     if (imageUrl) {
       return {

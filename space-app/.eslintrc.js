@@ -7,6 +7,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    "object-curly-spacing": ["error"],
     "sort-imports": "off",
     "import/order": "off",
     "simple-import-sort/imports": "error",
@@ -16,9 +17,9 @@ module.exports = {
         "some": ["nesting", "id"]
       }
     }],
-    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/prefer-default-export": "off",
-    "react/function-component-definition": [2, {"namedComponents": "arrow-function"}],
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
     "import/no-extraneous-dependencies": ["error", {
       "devDependencies": false,
       "optionalDependencies": false,
