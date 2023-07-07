@@ -16,6 +16,9 @@ export const OfferItem = ({ title, description, imageUrl }) => {
 
     return {
       backgroundImage: `url(images/space-1.webp)`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
     };
   }, [imageUrl]);
 
