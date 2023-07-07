@@ -56,4 +56,5 @@ table {
 button {
   border: none;
   appearance: none;
+  font-family: inherit;
 }
